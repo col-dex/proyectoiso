@@ -1,0 +1,25 @@
+<nb-layout>
+  <nb-layout-header>
+    <nav style="text-align: right;">
+      <button [nbContextMenu]="items" nbContextMenuPlacement="right">
+        Login
+      </button>
+    </nav>
+  </nb-layout-header>
+  <nb-layout-header>Destiny Tour </nb-layout-header>
+
+  <nb-sidebar responsive>
+    <nb-menu [items]="menuItems"></nb-menu>
+  </nb-sidebar>
+
+  <nb-layout-footer>Contact us</nb-layout-footer>
+
+  <nb-layout-column class="colored-column-basic">
+    Bienvenidos!
+    <nb-card>
+      <nb-card-body>
+        Tu experiecia en nuestras manos
+      </nb-card-body>
+    </nb-card>
+  </nb-layout-column>
+</nb-layout>
